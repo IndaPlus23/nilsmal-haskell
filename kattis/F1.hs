@@ -30,6 +30,7 @@ rovarsprak (c:cs)
     | otherwise = c : rovarsprak cs
 
 
+-- check what happens with really short words
 karpsravor :: String -> String
 karpsravor [] = []
 karpsravor (c1:c2:c3:cs)
